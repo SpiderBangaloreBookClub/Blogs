@@ -1,33 +1,42 @@
-## Book of Joy - 
+<html lang="en">
 
-### Description
+  <head>
+    <title>Spider Bangalore Book Club</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
-```markdown
-Syntax highlighted code block
+  </head>
+  <body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <span class="navbar-brand mb-0 h1">Spider Bangalore Book Club</span>
+	</nav>
 
-# Header 1
-## Header 2
-### Header 3
+	<div class="container">
+		<br/>
+		<div class="row">
+		  <div class="col-md-1">
+		  </div>
 
-- Bulleted
-- List
+		  <div class="col-md-6">
+			<div class="card bg-light mb-3" style="max-width: 28rem;">
+			  <div class="card-header">Book Review</div>
+			  <div class="card-body">
+				<h5 class="card-title">Book of Joy - by Dalai Lama, Desmond Tutu</h5>
+				<p class="card-text">&lt;Summary&gt;</p>
+				<a href="bookOfJoy.html" class="btn btn-secondary">Read Review</a>
+			  </div>
+			</div>
+		  <div class="col-md-5"></div>
+		</div>
+	</div>
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SpiderBangaloreBookClub/Blogs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
