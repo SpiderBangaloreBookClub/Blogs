@@ -13,5 +13,3 @@ identifier: BookOfJoyReview
 			Review goes here. Hope you liked the review!</p>
 		</div>
 </div>
-
-
