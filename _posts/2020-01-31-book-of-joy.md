@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Book Review - Book Of Joy
+title: Book of Joy
 excerpt_size: 30
 author: Raksha
 ---
