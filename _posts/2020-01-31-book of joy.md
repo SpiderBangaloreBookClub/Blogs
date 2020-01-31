@@ -4,7 +4,7 @@ title: Book of Joy
 excerpt_size: 30
 book_author: Dalai Lama, Desmond Tutu
 review_author: Raksha
-categories: [Book]
+categories: test,test
 tags: [Book]
 identifier: BookOfJoyReview
 ---
