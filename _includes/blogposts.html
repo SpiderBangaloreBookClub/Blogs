@@ -3,15 +3,13 @@
 	</div>
 	<div class="col-md-10">
 		{% for post in site.posts %}
-		<div class="card bg-light mb-3" style="max-width: {{ post.excerpt_size }}rem;">
-			<div class="card-body">
+		<div style="overflow: auto" class="border-top border-bottom border-secondary rounded-top rounded-bottom pt-2 pb-2 mt-2 mb-2">
 				<img style="margin-right: 15px" src="{{post.imageurl}}" width="140" height="200" class="img-thumbnail rounded float-left"/>
 				<div >
 				<h5 class="card-title">{{ post.title }} - by {{ post.book_author }}.</h5>
 				<p class="card-text">{{ post.excerpt }}</p>
 				<a href="/Blogs{{ post.url }}" class="btn btn-secondary">Read Review</a>
 				</div>
-			</div>
 		</div>
 		{% endfor %}
 	</div>
